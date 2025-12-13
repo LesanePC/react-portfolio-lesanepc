@@ -2,12 +2,12 @@
 
 Современное портфолио Frontend Developer с интерактивными компонентами.
 
-[![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-brightgreen)](https://lesanepc-portfolio.vercel.app)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org)
+[![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-brightgreen)](https://react-portfolio-lesanepc.vercel.app/)
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev)
 [![CSS Modules](https://img.shields.io/badge/CSS-Modules-orange.svg)](https://github.com/css-modules/css-modules)
 
 ## ✨ Демо
-[Живое приложение](https://lesanepc-portfolio.vercel.app)
+[Живое приложение](https://react-portfolio-lesanepc.vercel.app/)
 
 ## 📱 Функционал
 - ✅ **Интерактивный счетчик** (useState)
