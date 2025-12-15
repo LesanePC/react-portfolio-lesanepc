@@ -2,30 +2,23 @@ import { useState } from 'react';
 import styles from './Main.module.css';
 
 function Main() {
-  const [count, setCount] = useState(0);
-
   return (
-    <main style={{padding: '20px'}}>
+    <main style={{ padding: "20px" }}>
       <h2>Frontend Developer</h2>
-      <p className={styles.countDisplay}>
-        Счетчик проектов: <strong>{count}</strong>
+      <p>
+        Работаю с современным фронтенд‑стеком: HTML5, CSS3, JavaScript и React.
+        В проектах стараюсь совмещать аккуратную верстку, понятный UI и чистый код,
+        чтобы сайт выглядел профессионально и был удобен для пользователей.
       </p>
-      <div className={styles.counter}>
-        <button 
-          className={styles.addBtn}
-          onClick={() => setCount(count + 1)}
-        >
-          + Проект
-        </button>
-        <button 
-          className={styles.resetBtn}
-          onClick={() => setCount(0)}
-        >
-          Сброс
-        </button>
-      </div>
+      <p>
+        Ниже собраны небольшие интерактивные примеры: список задач, форма обратной
+        связи и виджет с репозиториями GitHub. Они демонстрируют работу с
+        состоянием, формами, валидацией и внешними API в рамках одного портфолио.
+      </p>
     </main>
   );
 }
+
 export default Main;
+
 

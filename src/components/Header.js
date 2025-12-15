@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <h1 className={styles.title}>
-        Eugene My First | React Portfolio
+        Eugene Fokin - React Portfolio
       </h1>
     </header>
   );

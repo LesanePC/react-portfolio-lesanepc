@@ -3,6 +3,7 @@
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 30px;
+  text-align: center;
 }
 
 .todoTitle {
